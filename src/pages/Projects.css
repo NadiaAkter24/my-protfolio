@@ -1,0 +1,55 @@
+.projects-container {
+    padding: 40px;
+    background-color: #f9f9f9;
+    font-family: 'Roboto', Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    min-height: 100vh;
+  }
+  
+  .projects-container h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+  .projects-block {
+    display: flex;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    gap: 20px;
+    align-items: flex-start;
+  }
+  
+  .project-image {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+    flex-shrink: 0;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+  }
+  
+  .project-text h2 {
+    font-size: 22px;
+    margin-bottom: 8px;
+    color: #222;
+  }
+  
+  .tech-stack {
+    color: #666;
+    font-style: italic;
+    margin-bottom: 12px;
+  }
+  
+  .project-text p {
+    margin: 0;
+    font-size: 16px;
+    color: #444;
+  }
+  
